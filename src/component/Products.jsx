@@ -21,8 +21,10 @@ export default function Products() {
             }
             </div>
 
-            <div className="border-2 border-orange-500 p-3 rounded-lg">
+            <div className="border-2 border-orange-500 p-3 rounded-lg max-h-screen">
                 <h2 className="text-lg font-semibold capitalize flex items-center justify-center gap-3"><i className='bx bxs-cart-alt text-orange-500 text-2xl'></i> your cart section</h2>
+
+            
             </div>
         </div>
     </div>
