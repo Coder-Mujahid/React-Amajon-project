@@ -5,7 +5,7 @@ export default function Singleproduct({singlData,AddToCart}) {
     const {name,category,seller,price,img}=singlData
 
   return (
-    <div data-aos="fade-left" className="card bg-gradient-to-r from-slate-300 to-orange-100 shadow-md shadow-black p-3 flex flex-col justify-between">
+    <div data-aos="fade-left" className="mb-5 card bg-gradient-to-r from-slate-300 to-orange-100 shadow-lg shadow-orange-300 p-3 flex flex-col justify-between">
       <figure>
         <img src={img}alt="Shoes"className="rounded-xl"/>
       </figure>

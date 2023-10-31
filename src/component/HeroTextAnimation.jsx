@@ -16,7 +16,7 @@ const HeroTextAnimation = () => {
       ]}
       wrapper="span"
       speed={20}
-      style={{display: 'inline-block', color:'red', fontWeight:'700',fontSize:'40px'}}
+      style={{display: 'inline-block', color:'#C70039', fontWeight:'700',fontSize:'40px',textShadow: '2px 2px #581845'}}
       repeat={Infinity}
     />
   )
