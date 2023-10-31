@@ -2,6 +2,7 @@ import img1 from "../../img/1 (1).jpg"
 import img2 from "../../img/1 (2).jpg" 
 import img3 from "../../img/1 (3).jpg" 
 import img4 from "../../img/1 (4).jpg" 
+import HeroTextAnimation from "./HeroTextAnimation"
 export default function Hero() {
   return (
     <div className="carousel w-full h-screen pb-5">
@@ -12,7 +13,7 @@ export default function Hero() {
       <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
     <div className="font-bold capitalize absolute top-1/2 right-52 text-slate-900 text-center w-8/12">
-        <h2 className="text-5xl">Gaming accessories</h2>
+        <HeroTextAnimation></HeroTextAnimation>
         <p className="text-am">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde id illum nulla? Nihil reprehenderit tempora dolores dignissimos sed minus.</p>
     </div>
   </div> 
@@ -23,7 +24,7 @@ export default function Hero() {
       <a href="#slide3" className="btn btn-circle">❯</a>
     </div>
     <div className="font-bold capitalize absolute top-1/2 right-52 text-slate-900 text-center w-8/12">
-        <h2 className="text-5xl">Electronics</h2>
+      <HeroTextAnimation></HeroTextAnimation>
         <p className="text-am">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde id illum nulla? Nihil reprehenderit tempora dolores dignissimos sed minus.</p>
     </div>
   </div> 
@@ -34,7 +35,7 @@ export default function Hero() {
       <a href="#slide4" className="btn btn-circle">❯</a>
     </div>
     <div className="font-bold capitalize absolute top-1/2 right-52 text-slate-900 text-center w-8/12">
-        <h2 className="text-5xl">Health & Personal Care</h2>
+      <HeroTextAnimation></HeroTextAnimation>
         <p className="text-am">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde id illum nulla? Nihil reprehenderit tempora dolores dignissimos sed minus.</p>
     </div>
   </div> 
@@ -45,7 +46,7 @@ export default function Hero() {
       <a href="#slide1" className="btn btn-circle">❯</a>
     </div>
     <div className="font-bold capitalize absolute top-1/2 right-52 text-slate-900 text-center w-8/12">
-        <h2 className="text-5xl">Home & Kitchen</h2>
+      <HeroTextAnimation></HeroTextAnimation>
         <p className="text-am">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde id illum nulla? Nihil reprehenderit tempora dolores dignissimos sed minus.</p>
     </div>
   </div>
