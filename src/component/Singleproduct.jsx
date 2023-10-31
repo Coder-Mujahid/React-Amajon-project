@@ -1,8 +1,9 @@
 
 
-export default function Singleproduct({singlData}) {
+export default function Singleproduct({singlData,AddToCart}) {
 
     const {name,category,seller,price,img}=singlData
+
   return (
     <div data-aos="fade-left" className="card bg-gradient-to-r from-slate-300 to-orange-100 shadow-md shadow-black p-3 flex flex-col justify-between">
       <figure>
@@ -16,7 +17,7 @@ export default function Singleproduct({singlData}) {
         <p>price :- <span className="text-orange-500">{price}$</span></p>
         </div>
         <div className="card-actions w-full">
-          <button className="btn btn-primary w-full">add to cart</button>
+          <button onClick={()=>{AddToCart(singlData)}} className="btn btn-primary w-full">add to cart</button>
         </div>
       </div>
     </div>
